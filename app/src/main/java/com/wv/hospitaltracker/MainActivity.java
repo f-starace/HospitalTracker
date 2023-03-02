@@ -305,7 +305,7 @@ public class MainActivity extends Activity {
     public boolean onKeyDown(int keycode, KeyEvent e){
         switch (keycode){
             case KeyEvent.KEYCODE_BACK:
-                showMessage("Aktion nicht erlaubt!");
+                showMessage("Forbidden action!");
                 return true;
         }
         return super.onKeyDown(keycode, e);
@@ -337,7 +337,7 @@ public class MainActivity extends Activity {
                 String dateTime = getDateTimeFromTimeStamp(new Date(ts));
                 csv.writeToFile("calibrate", timeStamp, dateTime);
             }
-            if (item.getTitle().equals("Beenden")){
+            if (item.getTitle().equals("End")){
                 //stop audio
                 audioHandler.stopRecording();
                 //stop app

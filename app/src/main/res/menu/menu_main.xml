@@ -9,12 +9,12 @@
         app:showAsAction="ifRoom|withText" />
 
     <item android:id="@+id/userSexMenu"
-        android:title="Geschlecht:"
+        android:title="Gender:"
         android:orderInCategory="3"
         app:showAsAction="ifRoom|withText" />
 
     <item android:id="@+id/userAgeMenu"
-        android:title="Alter:"
+        android:title="Age:"
         android:orderInCategory="5"
         app:showAsAction="ifRoom|withText" />
 
@@ -31,7 +31,7 @@
         />
 
     <item android:id="@+id/buttonEnd"
-        android:title="Beenden"
+        android:title="End"
         android:orderInCategory="10"
         app:showAsAction="ifRoom|withText"
         />

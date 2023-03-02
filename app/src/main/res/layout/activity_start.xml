@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Patienten ID:"
+            android:text="Patient ID:"
             android:id="@+id/textViewId"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="30dp"
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Geschlecht:"
+            android:text="Gender:"
             android:id="@+id/textViewSex"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="30dp"
@@ -48,14 +48,14 @@
             <RadioButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="männlich"
+                android:text="Male"
                 android:id="@+id/radioButtonMale"
                 android:layout_gravity="center_horizontal" />
 
             <RadioButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="weiblich"
+                android:text="Female"
                 android:id="@+id/radioButtonFemale"
                 android:layout_gravity="center_horizontal" />
         </RadioGroup>
@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Alter:"
+            android:text="Age:"
             android:id="@+id/textViewAge"
             android:layout_below="@+id/editTextAge"
             android:layout_alignParentLeft="true"

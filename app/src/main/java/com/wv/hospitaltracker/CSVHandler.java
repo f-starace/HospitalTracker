@@ -35,7 +35,7 @@ public class CSVHandler extends FileWriteHandler {
         writeToFile("UserId", "User Sex", "User Age", "", "");
         writeToFile(userId, userSex, userAge, "", "");
         writeToFile("", "", "", "", "");
-        writeToFile("Event", "Start Timestamp", "End Timestamp", "Start Zeit", "End Zeit");
+        writeToFile("Event", "Start Timestamp", "End Timestamp", "Start Datetime", "End Datetime");
     }
 
     public void writeToFile(String name, String startTimeStamp, String timeStamp, String startDateTime, String stopDateTime){
